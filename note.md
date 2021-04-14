@@ -26,11 +26,6 @@ node.js->(orm)->SQL
 
 problem happen when orm not working!
 
-# 16/12/20 start
-
-24 tutorial
-everyday 5 tutorial - around 1 hour
-
 # 1. Intro
 
 My SQL
