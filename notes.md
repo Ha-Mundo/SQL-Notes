@@ -21,9 +21,11 @@ ex select email from students where email like "%naver.com"
 
 # ORM
 
-python ->(orm)->SQL
+Object Rational Mapping (ORM) is a technique that lets you query and manipulate data from a database using an object-oriented paradigm.
 
-node.js->(orm)->SQL
+python -> (ORM) -> SQLAlchemy
+
+node.js -> (ORM) -> Sequelize / Mongoose
 
 problem happen when orm not working!
 
