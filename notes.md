@@ -22,20 +22,12 @@ ex select email from students where email like "%naver.com"
 # ORM
 
 python ->(orm)->SQL
+
 node.js->(orm)->SQL
 
 problem happen when orm not working!
 
-# 16/12/20 start
-
-24 tutorial
-everyday 5 tutorial - around 1 hour
-
-# 1. Intro
-
-My SQL
-
-# 2. What is Database(DB)?
+# What is Database(DB)?
 
 ### 1.
 
@@ -147,73 +139,3 @@ Amazon Database Diagram
 - Two type of Databases
 - Relational databases use SQL and store data in tables with rows and columns
 - Non Relational data store data using other data structures
-
-# 3. Table and Keys examples
-
-- primary key - unique attribute
-- define table
-- surrogate key - not mapping anything in real word data// it is one kind of primary key
-- natural key - social security number as primary key of table -- // key has mapping or purpose in real world
-- foreign key - attribute that we can store on database table that link us another table
-  its gonna be primary key in different table and use another table
-  ( we can define relationship with different tables)
-- composite key // key need two attribute //only together they can be unique not one each
-- composite key// both can be foreign key and both of them make it together unique
-
-# 4. SQL basic
-
-## SQL
-
-- SQL is a language used for interacting with Relational Database Management Systems
-  - You can use SQL to get the RDBMS to do things for you.
-    - Create, retrieve, update and delete data
-    - Create and manage databases
-    - Design and create database tables
-    - Perform administration tasks(security, user management, import/export ect)
-- SQL implementations vary between systems. ( just little tweak?)
-
-  - not all RDBMS follow the SQL standard to a 'T'
-  - The concepts are the same but the implementation may vary
-
-- SQL is actually a hybrid language, it's basically 4 types of languages in one :
-  - Data Query Language (DQL)
-    - User to query the database for information.
-    - Get information that is already stored there.
-  - Data Definition Language (DDL)
-    - Used for defining database schemas.
-  - Data Control Language (DCL)
-    - Used for controlling access to the data in the database.
-    - User and Permissions management
-  - Data Manipulation Language(DML)
-    - Used for inserting, updating and deleting data from the database.
-
-## Queries
-
-- A query is a set of instructions given to the RDBMS that tell the RDBMS what information you want it to retrieve for you.
-  - TONS of data in a DB
-  - Often hidden a complex schema
-  - Goal is to only get the data you need.
-
-# 5. my SQL
-
-- my SQL, pop SQL? //popsQSl // can not connect with popsSQL
-
-- cd C:\mysql
-- cd bin
-- mysql -u root -p
-- enter password : 세린0837
-
-# 6. Creating tables
-
-schema
-always to create table is staring point
-_data type_
-
-- INT : whole number (integer)
-- DECIMAL(M, N) : exact value
-- VARCHAR(1) :string of text of length1
-- BLOB : Binary Large Object, Stores large data
-- Date : yyyy-mm-dd
-- TIMESTAMP : yyyy-mm-dd hh:mm:ss
-
-- CREATE TABLE
